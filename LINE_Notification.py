@@ -8,7 +8,7 @@ import requests
 #LineTokenの文字列取得
 f = open ('LineToken.txt')    
 line_token = f.readline()
-print(line_token)
+#print(line_token)
 f.close ( )
 
 #改行コードを削除してトークン格納
