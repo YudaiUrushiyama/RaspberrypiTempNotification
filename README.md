@@ -7,4 +7,13 @@
  - Raspberrypi4
  - SwitchBot温湿度計
 
-## 3.
+## 3.シーケンス
+```mermaid
+   sequenceDiagram
+        autonumber
+        participant ラズパイ
+        participant  Switchbot温湿度計
+        participant  LINE
+```
+
+##
