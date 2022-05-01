@@ -6,6 +6,7 @@ import LINE_Notification
 import json
 
 #実行
+def main():
     humid,temp = Temp_Get()
     Line(humid,temp)
 
@@ -21,9 +22,10 @@ def Temp_Get():
     humidity:float    = bot['body']['humidity']
     temperature:float = bot['body']['temperature']
 
-    print("deviceId    : " + deviceId )
-    print("humidity    : " , humidity )
-    print("temperature : " , temperature )
+    #debug print
+    #print("deviceId    : " + deviceId )
+    #print("humidity    : " , humidity )
+    #print("temperature : " , temperature )
 
     return humidity,temperature
 
