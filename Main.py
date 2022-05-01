@@ -31,7 +31,7 @@ def Temp_Get():
 
 def Line(humid:float,temp:float):
 
-    text = "湿度は {0} で、温度は {1} です。"
+    text = "湿度は {0} %で、温度は {1} ℃です。"
     send_text = text.format(humid,temp)
     LINE_Notification.send_line_message(send_text)
 
