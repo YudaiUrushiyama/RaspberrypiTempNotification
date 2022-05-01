@@ -12,8 +12,10 @@
    sequenceDiagram
         autonumber
         participant ラズパイ
-        participant  Switchbot温湿度計
-        participant  LINE
+        participant Switchbot温湿度計
+        participant LINE
+        ラズパイ->>Switchbot温湿度計: Switchbot_Temp_get実行
+        
 ```
 
 ##
